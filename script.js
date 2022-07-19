@@ -4,7 +4,6 @@ var weatherContainer=document.getElementById('weatherContainer')
 
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=41007815a25cc8e0197769e5266679bc
 
-getWeatherData()
 
 async function getWeatherData(){
     var cityName=document.getElementById('cityName').value
